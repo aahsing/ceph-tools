@@ -4,7 +4,7 @@
 
 #!/bin/bash
 #log script execution time
-time=`date +"%Y/%m/%d %H:%m"`
+time=`date +"%Y/%m/%d %H:%M"`
 echo $time  >> /var/log/pgautorepair_log
 
 #check whether cluster has inconsistent pgs or not
